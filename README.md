@@ -1,6 +1,6 @@
 # Calculadora de IMC em Dart
 
-Este é um projeto simples de estudo em Dart em que implementa uma calculadora de IMC (Índice de Massa Corporal) implementado em Dart. Ele permite calcular o IMC de uma pessoa com base em seu peso e altura, fornecidos via linha de comando.
+Este é um projeto simples de estudo em Dart em que implementa uma calculadora de IMC (Índice de Massa Corporal). Ele permite calcular o IMC de uma pessoa com base em seu peso e altura, fornecidos via linha de comando.
 
 ## Funcionalidades
 
