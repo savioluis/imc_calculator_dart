@@ -25,7 +25,7 @@ void execute() {
   } while (nome == "");
 
   do {
-    peso = ConsoleUtils.lerDoubleComTexto("Digite o peso de $nome: ");
+    peso = ConsoleUtils.lerDoubleComTexto("Digite o peso (kg) de $nome: ");
     try {
       if (peso == null || peso < 0.0) {
         throw PesoInvalidoException();
@@ -37,7 +37,7 @@ void execute() {
   } while (peso == null || peso < 0.0);
 
   do {
-    altura = ConsoleUtils.lerDoubleComTexto("Digite a altura de $nome: ");
+    altura = ConsoleUtils.lerDoubleComTexto("Digite a altura (m) de $nome: ");
     try {
       if (altura == null || altura <= 0.0) {
         throw AlturaInvalidaException();
